@@ -158,9 +158,9 @@
                 {
                     foreach (var buff in Player.Instance.Buffs)
                     {
-                        if (buff.Name == "asheqcastready" && buff.Count == 5)
+                        if (buff.Name == "asheqcastready" && buff.Count == 4)
                         {
-                            Spells[SpellSlot.Q].Cast();
+                            Spells[SpellSlot.Q].Cast(4);
                         }
                     }
                 }
